@@ -1,0 +1,670 @@
+/*
+* @Author: 13350
+* @Date:   2018-05-26 08:44:54
+* @Last Modified by:   13350
+* @Last Modified time: 2018-05-30 22:15:31
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑","宋体";
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header main{
+	/* width: 976px; */
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+nav ul{
+	/* width: 976px; */
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #fff;
+}
+nav ul li a i{
+	display: block;
+	width: 16px;
+	height: 44px;
+	font-size: 24px;
+	line-height: 44px;
+}
+header main div{
+	font-size: 10px;
+	color: #a8a8aa;
+}
+.list{
+	width: 100%;
+	height: auto;
+}
+.list:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+.list li{
+	width: 100%;
+	height: 656px;
+	background: #f7f7f7;
+	margin-bottom: 12px;
+}
+.list li:nth-child(2){
+	background: #b00e23;
+}
+.iphoneX a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.iphoneX h1{
+	color: #111;
+	text-align: center;
+}
+.iphoneX h2{
+	text-align: center;
+	color: #111;
+}
+.iphoneX_i{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.iphoneX_8{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.iphoneX_p{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product,.product ul{
+	width: 100%;
+	height: auto;
+}
+.product ul li{
+	/* width: 50%;
+	height: 580px; */
+	/* background: url('../img/chanp_1.jpg') no-repeat center/cover; */
+	float: left;
+	margin-bottom: 12px;
+	/* border-left: 12px solid #fff;
+	border-right: 12px solid #fff; */
+	box-sizing: border-box;
+}
+/* .product ul li:nth-child(2n){
+	border-left: none;
+} */
+.pro_top{
+	width: 100%;
+	height: 152px;
+	overflow: hidden;
+}
+.pro_top h1{
+	width: 430px;
+	height: 38px;
+	margin: 0 auto;
+	margin-top: 52px;
+}
+.pro_top h1 i{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-left: 134px;
+	margin-top: 4px;
+	float: left;
+	margin-right: 4px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #000;
+}
+.pro_top h1 span{
+	display: block;
+	width: auto;
+	height: 30px;
+	margin-top: 4px;
+	float: left;
+	font-size: 26px;
+	line-height: 30px;
+	color: #000;
+}
+.pro_top p{
+	display: block;
+	width: 440px;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 28px;
+	font-size: 18px;
+	color: #000;
+}
+.Bottom{
+	width: 100%;
+	height: 700px;
+	background: #f2f2f2;
+	float: left;
+}
+.bottom{
+	/* width: 980px; */
+	height: 450px;
+	margin: 40px auto;
+}
+.bot_top{
+	width: 100%;
+	height: 338px;
+	display: flex;
+	justify-content: space-between;
+}
+.btttom_box{
+	width: 20%;
+	/* height: 338px; */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.btttom_box h1{
+	width: 100%;
+	height: 22px;
+	font-size: 10px;
+	line-height: 22px;
+	color: #333333;
+	font-weight: bold;
+}
+.btttom_box span{
+	display: block;
+	width: 100%;
+	height: 22px;
+	font-size: 8px;
+	line-height: 22px;
+	color: #555555;
+}
+.bot_bot{
+	/* width: 980px; */
+	height: auto;
+	margin-top: 40px;
+}
+.top_text{
+	/* width: 980px; */
+	/* height: auto; */
+}
+.top_text1{
+	width: 100%;
+	/* height: 26px; */
+	border-bottom: 1px solid #d6d6d6;
+}
+.top_text1 h1{
+	font-size: 10px;
+	line-height: 26px;
+	color: #888888;
+	float: left;
+}
+.top_text1 h1 a{
+	color: blue;
+}
+.top_text1 h1 a:hover{
+	border-bottom: 1px solid blue;
+}
+.top_text2{
+	margin-top: 4px;
+}
+.top_text2 h2{
+	/* width: auto; */
+	height: 26px;
+	font-size: 10px;
+	line-height: 26px;
+	color: #888888;
+	float: left;
+}
+.text2_box{
+	/* width: auto; */
+	height: 26px;
+	/* float: left; */
+}
+.text2_box a{
+	display: block;
+	/* width: 70px; */
+	height: 16px;
+	margin-top: 5px;
+	border-left: 1px solid #d6d6d6;
+	font-size: 10px;
+	line-height: 16px;
+	text-align: center;
+}
+.text2_box a h3{
+	display: block;
+	width: 50px;
+	/* margin: 0 auto; */
+	color: #555;
+}
+.text2_box a:first-child{
+	border-left: none;
+}
+.text2_box a:hover h3{
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+.top_text3{
+	width: 50px;
+	height: auto;
+	float: right;
+	/* margin-top: 5px; */
+}
+.top_text3 span{
+	display: block;
+	width: 22px;
+	height: 22px;
+	float: left;
+	background: url('../img/16.png') no-repeat center/cover;
+}
+.top_text3 a{
+	display: block;
+	width: auto;
+	height: 22px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #555555;
+}
+.top_text3 a:hover em{
+	border-bottom: 1px solid #555;
+}
+.bot_text{
+	width: 100%;
+	/* height: 20px; */
+	font-size: 10px;
+	line-height: 20px;
+	color: #888;
+}
+.bot_text a{
+	color: #888;
+}
+.bot_text a:hover{
+	border-bottom: 1px solid #888;
+}
+/* >1024px       976px */
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.max{
+		display: block;
+	}
+	.min{
+		display: none;
+	}
+	.list li{	
+		height: 692px;
+	}
+	.iphoneX h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 86px;
+	}
+	.iphoneX h2{
+		font-size: 22px;
+		line-height: 62px;
+	}
+	.iphoneX_i{
+		width: 909px;
+		height: 194px;
+		bottom: 170px;
+		background: url('../img/iPhone X1.jpg') no-repeat center/cover;
+	}
+	.iphoneX_8{
+		width: 334px;
+		height: 335px;
+		background: url('../img/i8_1.png') no-repeat center/cover;
+	}
+	.iphoneX_p{
+		width: 909px;
+		height: 280px;
+		bottom: 100px;
+		background: url('../img/ipad_1.jpg') no-repeat center/cover;
+	}
+	.product ul li{
+		width: 50%;
+		height: 580px;
+		border-left: 12px solid #fff;
+		border-right: 12px solid #fff;
+		background: url('../img/chanp_1.jpg') no-repeat center/cover;
+	}
+	/* .product ul li:first-child{
+		background: url('../img/chanp_1.jpg') no-repeat center/cover;
+	} */
+	.product ul li:nth-child(2n){
+		border-left: none;
+	}
+	.bottom{
+		width: 980px;
+	}
+	.btttom_box{
+		height: 338px;
+	}
+	.bot_top{
+		display: block;
+		display: flex;
+		justify-content: space-between;
+	}
+	.bot_TOP{
+		display: none;
+	}
+	.bot_bot{
+		width: 980px;
+	}
+	.top_text1{
+		height: 26px;
+	}
+	.text2_box{
+		width: auto;
+		float: left;
+	}
+	.text2_box a{
+		margin-right: 5px;
+		float: left;
+	}	
+	.top_text{
+		height: auto;
+	}
+	.top_text2{
+		width: 100%;
+		height: 26px;
+	}
+	.top_text2 h2{
+		width: auto;
+	}
+	.text2_box a{
+		width: 70px;
+	}
+	.text2_box a h3{
+		margin: 0 auto;
+	}
+	.top_text3{
+		margin-top: 30px;
+	}
+	.bot_text{
+		width: 100%;
+		height: 20px;
+	}
+}
+/* <1024px */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding: 0 22px;
+	}
+	.max{
+		display: block;
+	}
+	.min{
+		display: none;
+	}
+	.list li{	
+		height: 650px;
+	}
+	.iphoneX h1{
+		font-size: 32px;
+		line-height: 51px;
+		margin-top: 99px;
+	}
+	.iphoneX h2{
+		font-size: 20px;
+		line-height: 51px;
+	}
+	.iphoneX_i{
+		width: 704px;
+		height: 148px;
+		bottom: 175px;
+		background: url('../img/iphone_x2.jpg') no-repeat center/cover;
+	}
+	.iphoneX_8{
+		width: 320px;
+		height: 327px;
+		background: url('../img/i8_2.png') no-repeat center/cover;
+	}
+	.iphoneX_p{
+		width: 909px;
+		height: 280px;
+		bottom: 100px;
+		background: url('../img/ipad_2.jpg') no-repeat center/cover;
+	}
+	.product ul li{
+		width: 50%;
+		height: 490px;
+		border-left: 12px solid #fff;
+		border-right: 12px solid #fff;
+		background: url('../img/chanp_2.jpg') no-repeat center/cover;
+	}
+	/* .product ul li:first-child{
+		background: url('../img/chanp_2.jpg') no-repeat center/cover;
+	} */
+	/* .product ul li:nth-child(2){
+		background: url('../img/chanp2_2.jpg') no-repeat center/cover;
+	} */
+	.product ul li:nth-child(2n){
+		border-left: none;
+	}
+	.bottom{
+		width: 100%;
+		padding-right: 22px;
+		padding-left: 18px;
+		box-sizing: border-box;
+	}
+	.btttom_box{
+		height: 338px;
+	}
+	.bot_top{
+		display: block;
+		display: flex;
+		justify-content: space-between;
+	}
+	.bot_TOP{
+		display: none;
+	}
+	.bot_bot{
+		width: 100%;
+	}
+	.top_text{
+		height: auto;
+	}
+	.top_text1{
+		height: 26px;
+	}
+	.top_text2{
+		width: 100%;
+		height: 26px;
+	}
+	.top_text2 h2{
+		width: auto;
+	}
+	.text2_box a{
+		width: 70px;
+	}
+	.text2_box a h3{
+		margin: 0 auto;
+	}
+	.text2_box{
+		width: auto;
+		float: left;
+	}
+	.text2_box a{
+		margin-right: 5px;
+		float: left;
+	}	
+	.top_text3{
+		margin-top: 30px;
+	}
+	.bot_text{
+		width: 100%;
+		height: 20px;
+	}
+}
+/* <768px */
+@media screen and (max-width: 768px){
+	.max{
+		display: none;
+	}
+	.min{
+		display: block;
+	}
+	.list li{	
+		height: 500px;
+	}
+	.iphoneX h1{
+		font-size: 24px;
+		line-height: 37px;
+		margin-top: 32px;
+	}
+	.iphoneX h2{
+		font-size: 16px;
+		line-height: 37px;
+	}
+	.iphoneX_i{
+		width: 167px;
+		height: 333px;
+		bottom: 38px;
+		background: url('../img/iphone_x3.jpg') no-repeat center/cover;
+	}
+	.iphoneX_8{
+		width: 282px;
+		height: 327px;
+		background: url('../img/i8_3l.png') no-repeat center/cover;
+	}
+	.iphoneX_p{
+		width: 167px;
+		height: 333px;
+		bottom: 20px;
+		background: url('../img/ipad_3.jpg') no-repeat center/cover;
+	}
+	.product ul li{
+		width: 100%;
+		height: 500px;
+		border: none;
+		background: url('../img/chanp_3.jpg') no-repeat center/cover;
+	}
+	.bot_top{
+		display: none;
+	}
+	.bottom{
+		width: 100%;
+	}
+	.btttom_box{
+		width: 100%;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.btttom_box a{
+		display: flex;
+		justify-content: space-between;
+	}
+	.bot_TOP{
+		width: 100%;
+		height: 338px;
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.btttom_box h1{
+		height: 48px;
+		font-size: 8px;
+		line-height: 48px;
+		color: #333;
+	}
+	.btttom_box em{
+		display: block;
+		height: 48px;
+		font-size: 8px;
+		line-height: 48px;
+		text-align: right;
+		padding-right: 10px;
+		box-sizing: border-box;
+		color: #111;
+	}
+	.bot_bot{
+		width: 100%;
+	}
+	.top_text{
+		height: auto;
+	}
+	.top_text1 h1{
+		width: 100%;
+	}
+	.top_text1{
+		height: auto;
+	}
+	.top_text2{
+		width: 100%;
+		height: auto;
+	}
+	.top_text2 h2{
+		width: 100%;
+	}
+	.text2_box{
+		width: 100%;
+		height: auto;
+	}
+	.text2_box a{
+		margin-right: 5px;
+		float: left;
+	}
+	.text2_box a:first-child{
+		width: 60px;
+	}
+	.text2_box a:first-child h3{
+		margin-left: 0;
+	}
+	.top_text3{
+		margin-top: 5px;
+		width: 100%;
+		float: left;
+	}
+	.bot_text{
+		width: 100%;
+		height: 20px;
+	}
+}
+	/* .product ul li:first-child{
+		background: url('../img/chanp_3.jpg') no-repeat center/cover;
+	} */
+	/* .product ul li:nth-child(2){
+		background: url('../img/chanp2_3.jpg') no-repeat center/cover;
+	} */
